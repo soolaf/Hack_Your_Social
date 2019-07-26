@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-// @route    POST api/posts
-// @desc     Test posts
+// @route    Get api/posts
+// @desc     Test route
 // @access   Public
 
 router.get('/', (req, res) => res.send('Posts route'));
