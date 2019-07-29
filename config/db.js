@@ -8,7 +8,7 @@ const connectDB = async () => {
       useCreateIndex: true,
       useFindAndModify: false,
     });
-    console.log('MondoDB connected ...');
+    console.log('MongoDB connected ...');
   } catch (err) {
     console.error(err.message);
     //Exit process with failure
